@@ -1,18 +1,56 @@
 """
-Full Name:
-Class-Section:
-Assignment Title:
-Submission Date:
+Full Name: Taiwo Ayeyemi
+Class-Section: IS 250 01
+Assignment Title: Calculate Average of Three Scores
+Submission Date: 11/17/2025
 """
 """
-Write your pseudocode here.
-Do not write any Python code in this section.
-Your pseudocode should describe your overall approach in your own words.
+Pseudocode:
+1. Ask the user to enter the first exam score.
+2. Ask the user to enter the second exam score.
+3. Ask the user to enter the third exam score.
+4. Convert the scores to numbers (floats).
+5. Send the three scores to a function that calculates the average.
+6. Inside the function: add the three scores, divide by 3, return the result.
+7. After receiving the average, print each score on its own line.
+8. Print the final average score.
 """
 
-# Your Python code begins below this line.
-# Every line you write must have a comment directly above it.
+# Define a function that calculates the average of three scores
+def calculate_average(score1, score2, score3):
+    # Add the three scores together
+    total = score1 + score2 + score3
 
-# Call your function when your program is ready
-calculate_average()   
-  
+    # Divide the total by 3 to get the average
+    average = total / 3
+
+    # Return the computed average
+    return average
+
+
+# Ask the user for the first score
+score1 = float(input("Enter first score: "))
+
+# Ask the user for the second score
+score2 = float(input("Enter second score: "))
+
+# Ask the user for the third score
+score3 = float(input("Enter third score: "))
+
+# Call the function to calculate the average
+average_score = calculate_average(score1, score2, score3)
+
+# Print the first score
+print("First score:", score1)
+
+# Print the second score
+print("Second score:", score2)
+
+# Print the third score
+print("Third score:", score3)
+
+# Print the final average score
+print("The average score is:", average_score)
+
+# Call the function so the program runs when the file is executed
+calculate_average()
