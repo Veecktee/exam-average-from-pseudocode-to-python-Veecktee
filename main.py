@@ -60,7 +60,7 @@ print("Second score:", score2)
 print("Third score:", score3)
 
 # Print the final average score
-print("The average score is:", average_score)
+print("Final average score is:", average)
 
 
 # Call the function so the program runs when the file is executed
