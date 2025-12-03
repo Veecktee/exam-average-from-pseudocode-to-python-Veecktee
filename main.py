@@ -4,7 +4,6 @@ Class-Section: IS 250 01
 Assignment Title: Calculate Average of Three Scores
 Submission Date: 11/17/2025
 """
-
 """
 Pseudocode:
 1. Ask the user to enter the first exam score.
@@ -16,7 +15,6 @@ Pseudocode:
 7. After receiving the average, print each score on its own line.
 8. Print the final average score on its own line.
 """
-
 # Define a function that calculates the average of three scores
 def calculate_average(score1, score2, score3):
     # Add the three scores together
@@ -27,7 +25,6 @@ def calculate_average(score1, score2, score3):
 
     # Return the computed average
     return average
-
 
 # Ask the user for the first score
 first_score_input = input("Enter first score: ")
@@ -63,4 +60,4 @@ print("Third score:", score3)
 print("Final average score is:", average_score)
 
 
-# Call the function so the program runs when the file is executed
+
