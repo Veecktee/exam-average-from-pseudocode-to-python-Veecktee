@@ -2,7 +2,7 @@
 Full Name: Taiwo Ayeyemi
 Class-Section: IS 250 01
 Assignment Title: Calculate Average of Three Scores
-Submission Date: 11/17/2025
+Submission Date: 12/03/2025
 """
 """
 Pseudocode:
